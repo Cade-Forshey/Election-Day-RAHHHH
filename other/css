@@ -1,0 +1,105 @@
+/*====================General====================*/
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    
+}
+/*====================ID====================*/
+
+/*====================Class====================*/
+
+.title a,
+.main-nav a {
+   padding: 10px 15px;
+   text-transform: uppercase;
+   text-align: center;
+   display: block;
+}
+
+.header {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: 1px solid;
+    border-radius: 5px;
+
+.title {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.main-nav{
+    margin-top: 5px;
+ }
+
+.main-nav a {
+    font-size: 1.2em;
+}
+
+.main-nav a:hover {
+    color: red;
+}
+
+ /*==========Tablet Media Query==========*/
+ @media screen and (min-width: 769px) {
+ 
+ 
+    .header,
+    .main-nav {
+        display: flex;
+    }
+ 
+ 
+    .header {
+        flex-direction: column;
+        align-items: center;
+        .header {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 1150px;
+        } 
+    }
+ /*==========End Tablet Meida Query==========*/
+ 
+ /*==========Desktop Media Query==========*/
+ @media screen and (min-width: 1025px) {
+ 
+ 
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+ }
+ /*==========End Desktop Media Query==========*/
+ 
+ /*==========Large Display Query==========*/
+ @media screen and (min-width: 1850px) {
+ 
+ 
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+ }
+ /*==========End Large Display Media Query==========*/
+ 
+ 
+ footer {
+    margin-top: 0;
+    padding: 10%;
+    min-height: 200px;
+ }
+ 
