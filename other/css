@@ -1,3 +1,17 @@
+/*====================FONTS===================*/
+
+
+
+/*====================END FONTS===================*/
+
+/*====================COLORS===================*/
+
+Red
+White
+Blue
+
+/*====================END COLORS===================*/
+
 /*====================General====================*/
 
 * {
@@ -13,12 +27,20 @@ ul {
 
 a {
     text-decoration: none;
+    text-shadow: 6px 6px 9px black;
+    color: rgb(255, 255, 255);
 }
 
 body {
     
 }
 /*====================ID====================*/
+
+#header {
+    background-image: url(../other/images/Flag.svg);
+    background-repeat: no-repeat;
+    /*MAKE THE FLAG HAVE STRIPES ON PHONE*/
+}
 
 /*====================Class====================*/
 
@@ -35,6 +57,12 @@ body {
     padding-bottom: 1px;
     border: 1px solid;
     border-radius: 5px;
+}
+
+.header h1 {
+    color: white;
+    text-shadow: 3px 3px 6px black;
+}
 
 .title {
     margin: 0;
@@ -102,4 +130,3 @@ body {
     padding: 10%;
     min-height: 200px;
  }
- 
