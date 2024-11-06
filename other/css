@@ -1,8 +1,11 @@
-/*====================FONTS===================*/
+/*====================FONTS===================/
 
+    font-family: "Big Shoulders Display", sans-serif;
+    font-family: "Cedarville Cursive", cursive;
 
+/====================END FONTS===================*/
 
-/*====================END FONTS===================*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Barrio&family=Butcherman&family=Nosifer&family=Rubik+Wet+Paint&display=swap');
 
 /*====================COLORS===================*/
 
@@ -34,12 +37,53 @@ a {
 body {
     
 }
+
+p {
+    font-size: 20px;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+p:hover {
+    background-color: lightblue;
+    font-size: 30px;
+}
+
+ul li {
+    font-size: 20px;
+    font-family: "Cedarville Cursive", cursive;
+
+}
+
+.list {
+    list-style: circle;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+.list:hover {
+    background-color: lightblue;
+    font-size: 30px;
+}
+
+img {
+    width: 200px;
+    border: dotted;
+    box-shadow:  3px 3px 6px;
+}
+
+img:hover {
+    width: 250px;
+}
+
 /*====================ID====================*/
 
 #header {
     background-image: url(../other/images/Flag.svg);
     background-repeat: no-repeat;
     /*MAKE THE FLAG HAVE STRIPES ON PHONE*/
+}
+
+#main-nav {
+    font-family: "Cedarville Cursive", cursive;
 }
 
 /*====================Class====================*/
@@ -50,6 +94,10 @@ body {
    text-transform: uppercase;
    text-align: center;
    display: block;
+}
+
+.title {
+    font-family: "Cedarville Cursive", cursive;
 }
 
 .header {
@@ -69,8 +117,8 @@ body {
     font-size: 1.8em;
 }
 
-.main-nav{
-    margin-top: 5px;
+.main-nav {
+    font-family: "Cedarville Cursive", cursive;
  }
 
 .main-nav a {
